@@ -1,0 +1,40 @@
+/* app css stylesheet */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #DEA3A0;
+  color: white;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+p {
+  margin: 0 auto 30px;
+  width: 80%;
+  text-align: center;
+}
+
+.container
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.fiammi
+{
+  font-family: 'Marck Script', cursive;
+  margin: 30px auto 60px;
+  border: 2px solid white;
+  width: 144px;
+  height: 144px;
+  font-size: 108px;
+  line-height: 140px;
+  display: block;
+  font-weight: 100;
+  color: #fff;
+  text-align: center;
+  cursor: default;
+  border-radius: 15%;
+
+}
