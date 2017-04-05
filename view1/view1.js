@@ -18,6 +18,7 @@ angular.module('howoldisfiammi.view1', ['ngRoute'])
     var now = new moment();
     var dur = moment.duration(now.diff(birthday));
 
+    $scope.years = dur.years();
     $scope.months = dur.months();
     $scope.days = dur.days();
     $scope.hours = dur.hours();
